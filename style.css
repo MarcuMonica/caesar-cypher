@@ -74,6 +74,7 @@ body, html {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    pointer-events: none;
 }
 
 h1 {
@@ -116,6 +117,10 @@ h1 > span:nth-child(2) {
   overflow: hidden;
   align-items: center;
   margin-top: 150px;
+}
+
+input {
+  pointer-events: all;
 }
 
 label {
